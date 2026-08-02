@@ -44,3 +44,5 @@ Anything outside the checklist is a change order quoted separately — this is w
 ## Own-portfolio demo
 
 Before selling install #1, the full stack runs on Adventure Family Getaways' own properties. That produces: before/after response-time stats, screenshots for marketing, and the confidence of having debugged everything on home turf. Guests of the own portfolio get the best version of the product for free — which is also the review engine for the rental business itself.
+
+A working reference implementation of this build, running on the La Quinta desert retreat property, lives in [`/concierge-demo`](concierge-demo/README.md).

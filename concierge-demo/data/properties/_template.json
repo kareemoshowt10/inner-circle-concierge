@@ -1,0 +1,68 @@
+{
+  "_meta": {
+    "propertyId": "REPLACE_WITH_SLUG",
+    "templateNote": "Copy this file to data/properties/<slug>.json for each new client property, fill in every field, then set PROPERTY_ID=<slug> in the deployment's environment variables. Keep this shape identical when adding fields.",
+    "placeholderFields": [
+      "List every field below still holding a placeholder/default value once you fill this in, so the next editor knows what's been confirmed by the owner vs. guessed."
+    ]
+  },
+  "property": {
+    "name": "",
+    "listingTitle": "",
+    "city": "",
+    "state": "",
+    "neighborhood": "",
+    "maxGuests": 0,
+    "bedrooms": 0,
+    "beds": 0,
+    "baths": 0
+  },
+  "host": {
+    "name": "",
+    "yearsHosting": 0,
+    "rating": 0,
+    "reviewCount": 0,
+    "contactPhone": "",
+    "contactEmail": "",
+    "responseNote": ""
+  },
+  "logistics": {
+    "address": "",
+    "checkInTime": "",
+    "checkOutTime": "",
+    "selfCheckIn": {
+      "method": "",
+      "backup": ""
+    },
+    "wifi": {
+      "networkName": "",
+      "password": ""
+    },
+    "parking": {
+      "summary": ""
+    }
+  },
+  "policies": {
+    "pets": "",
+    "smoking": "",
+    "noise": "",
+    "maxOccupancy": "",
+    "events": ""
+  },
+  "amenities": {
+    "pool": "",
+    "spa": "",
+    "bbq": "",
+    "kitchen": ""
+  },
+  "localRecommendations": {
+    "golf": [],
+    "festivals": "",
+    "shoppingDining": [],
+    "casinos": []
+  },
+  "escalationTopics": ["refund", "discount", "price change", "complaint", "damage", "emergency", "safety", "legal", "injury", "dispute"],
+  "faqs": [
+    { "id": "checkin-time", "category": "check-in", "question": "What time can we check in?", "answer": "" }
+  ]
+}

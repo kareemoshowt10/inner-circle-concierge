@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "propertyId": "la-quinta-desert-retreat",
+    "templateNote": "Reusable knowledge-base template referenced in ../../03-ai-concierge-playbook.md. Copy this file and edit for each new client property; keep the shape identical to _template.json.",
+    "placeholderFields": [
+      "logistics.address — not visible in the Airbnb listing screenshots; using a realistic PLACEHOLDER address",
+      "logistics.wifi.networkName / logistics.wifi.password — PLACEHOLDER credentials",
+      "logistics.checkInTime / logistics.checkOutTime — PLACEHOLDER (4:00 PM / 11:00 AM); confirm real times before go-live",
+      "logistics.selfCheckIn — PLACEHOLDER smart-lock flow (method not visible in the screenshots)",
+      "host.contactPhone / host.contactEmail — PLACEHOLDER contact info; swap for Kareem's real numbers",
+      "policies.pets / policies.smoking — DEFAULT policy proposals, not confirmed by the owner; review before go-live"
+    ]
+  },
+  "property": {
+    "name": "Luxury Desert Retreat w/ Pool, Spa & Ultra-Fast WiFi",
+    "listingTitle": "Luxurious Home in La Quinta (Pool, Jacuzzi, BBQ)",
+    "city": "La Quinta",
+    "state": "CA",
+    "neighborhood": "Quiet residential neighborhood near Indio / Empire Polo Club area",
+    "maxGuests": 10,
+    "bedrooms": 3,
+    "beds": 3,
+    "baths": 3
+  },
+  "host": {
+    "name": "Kareem",
+    "yearsHosting": 8,
+    "rating": 4.82,
+    "reviewCount": 11,
+    "contactPhone": "PLACEHOLDER — (555) 555-0100",
+    "contactEmail": "PLACEHOLDER — host@example.com",
+    "responseNote": "Kareem typically responds within a few hours."
+  },
+  "logistics": {
+    "address": "PLACEHOLDER — 123 Desert Retreat Way, La Quinta, CA 92253 (swap for the real address before real-guest use)",
+    "checkInTime": "PLACEHOLDER — 4:00 PM",
+    "checkOutTime": "PLACEHOLDER — 11:00 AM",
+    "selfCheckIn": {
+      "method": "PLACEHOLDER — Smart-lock entry code sent by text message 24 hours before arrival",
+      "backup": "If the code doesn't work, text the host directly for help."
+    },
+    "wifi": {
+      "networkName": "PLACEHOLDER — DesertRetreat_5G",
+      "password": "PLACEHOLDER — SunsetPool2024"
+    },
+    "parking": {
+      "summary": "The garage has two bays; one bay is available for your use during your stay. The second bay is reserved for the property owner, who may access it on Saturdays and Sundays. You're also welcome to use the driveway and street parking for additional vehicles."
+    }
+  },
+  "policies": {
+    "pets": "DEFAULT — Sorry, pets are not permitted at this property.",
+    "smoking": "DEFAULT — No smoking or vaping anywhere on the property, indoors or outdoors.",
+    "noise": "Quiet hours and consideration for neighbors are required at all times — this is a family-friendly residential neighborhood. Please keep noise down, especially in the evenings.",
+    "maxOccupancy": "10 guests maximum, no exceptions.",
+    "events": "DEFAULT — No parties or large gatherings beyond registered guests, including during Coachella/Stagecoach weekends."
+  },
+  "amenities": {
+    "pool": "Private saltwater pool, unheated by default.",
+    "spa": "Heated jacuzzi/spa — heating is available upon request (let the host know ahead of your stay or during check-in).",
+    "bbq": "Built-in BBQ grill for outdoor dining. Check the propane/fuel level before use.",
+    "kitchen": "Fully equipped kitchen — cookware, dishware, a coffee maker, and basic staples provided."
+  },
+  "localRecommendations": {
+    "golf": ["PGA West", "SilverRock Resort", "La Quinta Country Club"],
+    "festivals": "About 10-15 minutes from the Empire Polo Club grounds in Indio, home to the Coachella and Stagecoach festivals.",
+    "shoppingDining": ["Old Town La Quinta (shops, restaurants, weekly farmers market)", "El Paseo shopping district in Palm Desert (~20 min)", "Indio's Fantasy Springs Resort Casino (~15 min)"],
+    "casinos": ["Fantasy Springs Resort Casino", "Agua Caliente Casino"]
+  },
+  "escalationTopics": ["refund", "discount", "price change", "complaint", "damage", "emergency", "safety", "legal", "injury", "dispute"],
+  "faqs": [
+    { "id": "checkin-time", "category": "check-in", "question": "What time can we check in?", "answer": "Check-in is at 4:00 PM. If you're arriving earlier, you're welcome to drop bags off, and we'll do our best to accommodate early check-in if the home is ready." },
+    { "id": "checkin-process", "category": "check-in", "question": "How do we get in — do we meet someone in person?", "answer": "It's fully self-check-in. You'll get a smart-lock entry code by text message 24 hours before your arrival — no need to meet anyone or pick up a key." },
+    { "id": "checkout-time", "category": "check-out", "question": "What time is checkout, and is late checkout available?", "answer": "Checkout is 11:00 AM. Late checkout isn't guaranteed, but message us the morning of and we'll see what we can do depending on the next guest's arrival." },
+    { "id": "wifi-info", "category": "wifi", "question": "What's the wifi network and password?", "answer": "Network name is DesertRetreat_5G, password is SunsetPool2024. It's ultra-fast fiber, great for streaming or working remotely." },
+    { "id": "pool-heated", "category": "pool-spa", "question": "Is the pool heated?", "answer": "The pool is a private saltwater pool and is not heated by default. The spa/jacuzzi is heated, and pool heating can be arranged on request — just let us know ahead of time." },
+    { "id": "spa-use", "category": "pool-spa", "question": "How do we turn on the jacuzzi?", "answer": "The spa is heated and ready to use during your stay — controls are on the equipment panel next to the spa. If it's not warming up, send us a message and we'll help troubleshoot." },
+    { "id": "bbq-use", "category": "bbq", "question": "Can we use the BBQ? Is propane included?", "answer": "Yes, the built-in BBQ is available for your use throughout your stay. Please check the fuel level before you start cooking — if it's running low, let us know." },
+    { "id": "parking-spaces", "category": "parking", "question": "How many cars can we park, and where?", "answer": "The garage has two bays — one is available for your use. The second is reserved for the owner, who may access it on weekends. You've also got the driveway and street parking for additional vehicles." },
+    { "id": "pets-allowed", "category": "pets", "question": "Are pets allowed?", "answer": "Sorry, we're not able to accommodate pets at this property." },
+    { "id": "smoking-policy", "category": "smoking", "question": "Is smoking or vaping allowed?", "answer": "No smoking or vaping anywhere on the property, indoors or outdoors — including on the patio and by the pool." },
+    { "id": "noise-rule", "category": "noise", "question": "Are there quiet hours or noise rules?", "answer": "This is a quiet, family-friendly residential neighborhood, so we ask all guests to be considerate of neighbors and keep noise down, especially in the evening." },
+    { "id": "festival-events", "category": "local-recs", "question": "Can we host a party, especially during Coachella or Stagecoach weekend?", "answer": "We're not able to accommodate parties or large gatherings beyond the registered guest count, even during festival weekends — the neighborhood is residential and noise-sensitive." },
+    { "id": "coachella-distance", "category": "local-recs", "question": "How far is the house from Coachella / Stagecoach?", "answer": "You're about 10-15 minutes from the Empire Polo Club grounds in Indio, where both Coachella and Stagecoach are held — a very easy drive." },
+    { "id": "golf-nearby", "category": "local-recs", "question": "What golf courses are nearby?", "answer": "You're close to several great courses — PGA West, SilverRock Resort, and La Quinta Country Club are all a short drive away." },
+    { "id": "shopping-dining", "category": "local-recs", "question": "Where should we go for shopping and dining nearby?", "answer": "Old Town La Quinta has great restaurants, shops, and a weekly farmers market. El Paseo in Palm Desert is a bit further (about 20 minutes) for upscale shopping, and there are a couple of casinos nearby too if that's your thing." },
+    { "id": "kitchen-equipped", "category": "general", "question": "Is the kitchen fully equipped?", "answer": "Yes — full-size appliances, cookware, dishware, a coffee maker, and basic pantry staples are all provided." },
+    { "id": "max-guests", "category": "general", "question": "How many people can stay?", "answer": "The home sleeps up to 10 guests across 3 bedrooms and 3 beds." },
+    { "id": "trouble-during-stay", "category": "general", "question": "What if something breaks or isn't working during our stay?", "answer": "Send us a message right away and we'll get it sorted as quickly as possible — most issues can be resolved same-day." },
+    { "id": "emergency-process", "category": "general", "question": "What should we do in a real emergency?", "answer": "For any safety emergency, call 911 first. Then let us know so we can follow up and support however we can." }
+  ]
+}
